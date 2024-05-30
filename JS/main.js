@@ -74,7 +74,7 @@ function validateName() {
 }
 
 function validateMail(){
-    var regex = /^(https:\/\/www.){1}[a-z]{1,}(\.com){1}$/;
+    var regex = /^(https:\/\/www.){1}[a-z]{1,}(\.){1}[a-z]+$/;
 
     if (regex.test(siteUrl.value)) {
         return true;
