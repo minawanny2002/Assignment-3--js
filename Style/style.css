@@ -1,0 +1,95 @@
+body {
+    background-color: #f7ecde;
+}
+
+.bookmarker {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.bookmarker::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fec260;
+    height: 20px;
+    z-index: -9999;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+
+}
+
+.bookmarker:hover::after {
+    height: 50px;
+
+}
+
+.dotted-line {
+    width: 80%;
+    border-bottom: 3px dotted #000;
+}
+
+.Section-2 .title {
+    font-size: 72px;
+    background-image: linear-gradient(to right, #2a8445, #ffea02);
+    background-clip: text;
+    color: transparent;
+}
+
+.Section-2 .title i {
+    font-size: 25px;
+}
+
+#SiteName:focus,
+#URL:focus {
+    border-color: #d99c39;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+.submit-button {
+    background-color: #d1512d;
+    color: white;
+    font-weight: 500;
+}
+
+.Section-2 .btn:hover {
+    background-color: #d1512d;
+    color: white;
+    font-weight: 500;
+}
+
+.visit-button {
+    background-color: #9eb23b;
+    font-weight: 500;
+    color: white;
+}
+
+.Section-3 .visit-button:hover {
+    background-color: #9eb23b;
+    font-weight: 500;
+    color: white;
+}
+
+.modal-body h5 {
+    font-weight: normal;
+}
+
+.modal-body i {
+    font-size: 20px;
+    color: #d1512d;
+    font-weight: normal;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#subButton {
+    width: 15%;
+}
