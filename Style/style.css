@@ -54,6 +54,7 @@ body {
     background-color: #d1512d;
     color: white;
     font-weight: 500;
+    width: 150px;
 }
 
 .Section-2 .btn:hover {
@@ -88,8 +89,4 @@ body {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-}
-
-#subButton {
-    width: 15%;
 }
